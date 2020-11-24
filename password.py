@@ -4,10 +4,8 @@ def s():
 	password=input('input your passowrd:')
 	points=len10(password,points)
 	points=len8(password,points)
-	print(points)
 	points=capital(password,points)
-	print(points)
 	points=symbols(password,points)
-	print(points)
+	print("your password have",points,"points")
 while True:
 	s()
